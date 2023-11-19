@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.f-btn{
+   @apply py-3 font-semibold  duration-1000  px-5 text-center bg-white border-b-4 hover:bg-[#1F2937] uppercase rounded-lg border-[#1F2937]
+}
+.banner2{
+   background-image: url("./assets/home/banner.jpg");   
+}
+
+.bg-img{
+   background-image: url("./assets/home/featured.jpg");
+}
